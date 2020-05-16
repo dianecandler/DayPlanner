@@ -3,7 +3,7 @@
 
 //run JQuery once HTML loaded
 $(document).ready(function () {
-	// could add console.log( 'ready!' ); inside document function to test JQuery ready
+	// could add - console.log( 'ready!' ); -- inside document function to test JQuery ready
 
 	// test flag - test if time between 8-5 - CHANGE NAME test to something?
 	var test = false;
