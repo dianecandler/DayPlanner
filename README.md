@@ -5,7 +5,7 @@ Psuedo code here:
        (hour 2, description input 10, button 2)
 3. [x] Set up save on-click button in HTML
 4. [ ] Set up basic JS and define variables - elaborate here
-5. [ ] Display correct date at top of the page (scroll)  
+5. [ ] Display correct date at top of the page (static scroll - nice to have)  
         (moment.js needed for this)
         Must add year, month, days, and current time
 6.  [ ] Set up each month/day (expect to find prepackaged help in
