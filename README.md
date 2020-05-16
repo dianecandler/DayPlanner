@@ -1,4 +1,20 @@
 Week 5 Homework with JQuery  - Work Day Scheduler
+Psuedo code here:
+1. [x] Set up HTML to support hourly blocks using CSS from 8-5
+2. [X] Separate columns and rows to support time, input, save button
+       (hour 2, description input 10, button 2)
+3. [x] Set up save on-click button in HTML
+4. [ ] Set up basic JS and define variables - elaborate here
+5. [ ] Display correct date at top of the page (scroll)  
+        (moment.js needed for this)
+        Must add year, month, days, and current time
+6.  [ ] Set up each month/day (expect to find prepackaged help in
+        moment.js or someplace) Allow user to select a day of their choice.
+7.  [ ] Set-up local storage to contain input (may need to move down?)
+8.  [ ] Not sure what hover coding is needed but need to explore
+9.  [ ] Provide user input on-click to accept data for each time-block
+10. [ ] Use CSS to activate past, present, future color coding
+
 
 Instructions for the project below.
 # 05 Third-Party APIs: Work Day Scheduler
