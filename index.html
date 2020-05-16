@@ -22,11 +22,79 @@
     </header>
 
     <div class="container">
-
+      <div class="time-block">  <!--CSS provided -->
       <!-- Timeblocks go here -->
-      
+        <!--8AM-->
+        <div class="row">
+          <div class="col-2 hour">8AM</div>
+          <!-- textarea guide https://www.w3schools.com/tags/tag_textarea.asp -->
+          <!-- placeholder offers hint placeholder attribute specifies a short hint,expected value of input field <input placeholder="text">-->
+          <textarea id="8" class="col-8 description" placeholder="No events yet">8amtext</textarea>
+          <!-- create a save button -->
+          <button class="col-2 saveBtn" onclick="savetext(8)">Save</button>
+        </div>
+        <!-- repeat for remaining hours -->
+        <!--9AM-->
+        <div class="row">
+          <div class="col-2 hour">9AM</div>
+          <textarea id="9" class="col-8 description" placeholder="No events yet">9amtext</textarea>
+          <button class="col-2 saveBtn" onclick="savetext(9)">Save</button>
+        </div>
+        <!--10AM-->
+        <div class="row">
+          <div class="col-2 hour">10AM</div>
+          <textarea id="10" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(10)">Save</button>
+        </div>
+        <!--11AM-->
+        <div class="row">
+          <div class="col-2 hour">11AM</div>
+          <textarea id="11" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(11)">Save</button>
+        </div>
+        <!--12PM-->
+        <div class="row">
+          <div class="col-2 hour">12PM</div>
+          <textarea id="12" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(12)">Save</button>
+        </div>
+        <!--1PM-->
+        <div class="row">
+          <div class="col-2 hour">1PM</div>
+          <textarea id="13" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(13)">Save</button>
+        </div>
+        <!--2PM-->
+        <div class="row">
+          <div class="col-2 hour">2PM</div>
+          <textarea id="14" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(14)">Save</button>
+        </div>
+        <!--3PM-->
+        <div class="row">
+          <div class="col-2 hour">3PM</div>
+          <textarea id="15" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(15)">Save</button>
+        </div>
+        <!--4PM-->
+        <div class="row">
+          <div class="col-2 hour">4PM</div>
+          <textarea id="16" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(16)">Save</button>
+        </div>
+        <!--5PM-->
+        <div class="row">
+          <div class="col-2 hour">5PM</div>
+          <textarea id="17" class="col-8 description" placeholder="No events yet"></textarea>
+          <button class="col-2 saveBtn" onclick="savetext(17)">Save</button>
+        </div>
+      </div>
     </div>
-<!-- jQuery links -->
+      
+
+    </div>
+    <script src="./assets/scripts.js"></script>
+    <!-- jQuery links -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
