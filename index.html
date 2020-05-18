@@ -12,6 +12,8 @@
       crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"/>
+      <!-- Bootstrap Icons open source SVG Icon library-->
+      <!-- <link href="https://icons.getbootstrap.com/#install" rel="stylesheet"> -->
     <!-- jQuery links -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
@@ -24,11 +26,15 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
-      <p id="navbar-subtitle"></p>
+      <p id="dateAtTop"></p>
     </header>
 
     <div class="container">
       <div class="time-block">  <!--CSS provided for time-block -->
+        <div id="present"></div>
+        <div id="past"></div>
+        <div id="future"></div>
+        <div id="hour"></div>
       <!-- Timeblocks go here -->
 
        <!-- textarea guide https://www.w3schools.com/tags/tag_textarea.asp -->
@@ -47,55 +53,55 @@
           <div class="col-2 hour">8AM</div>
           <textarea id="8" class="col-8 description" placeholder="Meeting Input">Meeting Input</textarea>
           <!-- create a save button, CSS for description, saveBtn, textarea -->
-          <button class="col-2 saveBtn" onclick="savetext(8)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(8)">Save</button>
         </div>  
         <!-- 9am -->
         <div class="row">
           <div class="col-2 hour">9AM</div>
           <textarea id="9" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(9)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(9)">Save</button>
         </div>
         <!--10AM-->
         <div class="row">
           <div class="col-2 hour">10AM</div>
           <textarea id="10" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(10)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(10)">Save</button>
         </div>
         <!--11AM-->
         <div class="row">
           <div class="col-2 hour">11AM</div>
           <textarea id="11" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(11)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(11)">Save</button>
         </div>
         <!--12PM-->
         <div class="row">
           <div class="col-2 hour">12PM</div>
           <textarea id="12" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(12)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(12)">Save</button>
         </div>
         <!--1PM-->
         <div class="row">
           <div class="col-2 hour">1PM</div>
           <textarea id="13" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(13)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(13)">Save</button>
         </div>
         <!--2PM-->
         <div class="row">
           <div class="col-2 hour">2PM</div>
           <textarea id="14" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(14)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(14)">Save</button>
         </div>
         <!--3PM-->
         <div class="row">
           <div class="col-2 hour">3PM</div>
           <textarea id="15" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(15)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(15)">Save</button>
         </div>
         <!--4PM-->
         <div class="row">
           <div class="col-2 hour">4PM</div>
           <textarea id="16" class="col-8 description" placeholder="Meeting Input"></textarea>
-          <button class="col-2 saveBtn" onclick="savetext(16)">Save</button>
+          <button class="col-2 saveBtn" onclick="saveText(16)">Save</button>
         </div>
         <!--5PM-->
         <div class="row">
