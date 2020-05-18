@@ -28,7 +28,7 @@ $(document).ready(function () {
 	var rnn = new Date();
 	var currentHour = rnn.getHours(); //16>militarytime
 
-	//change the description box color based on time
+	//change the description box color based on time - use 18 military time
 	for (var i = 8; i < 18; i++) {
 		if (i < currentHour) {
 			document.getElementById(i.toString()).classList.add('past');
@@ -52,8 +52,17 @@ $(document).ready(function () {
 	function savetext (i) {
 		var myText = document.getElementById(i.toString()).value;
 		localStorage.setItem(i.toString(), myText);
-		console.log([myText]);
+		console.log([ myText ]);
 	}
+	// WORKS ABOVE but NO STORAGE
+
+	// Get stored requests, meetings, input from localStorage
+	// const works = true; //using this breaks colors
+	// Parsing the JSON string to an object - Saving string into an object to store local
+	let storedPlans = JSON.parse(localStorage.getItem('storedPlans'));
+	if (works) {
+		console.log(storedPlans);
+	};
 
 	// saves to local storage
 	// conclick function to listen for user clicks on plan area
@@ -71,18 +80,9 @@ $(document).ready(function () {
 
 	//     if (test) { console.log('value ', $value); }
 	//     if (test) { console.log('index ', $index); }
-	//     if (test) { console.log('click pta after '+ planTextArr); }
+	//     if (test) { console.log('click pta after '+ planTextArr); }  //plainTextArr call pta
 
-	// 	// Get stored requests, meetings, input from localStorage
-	// 	const works = true;
-	// 	// Parsing the JSON string to an object - Saving string into an object to store local
-	// 	let storedPlans = JSON.parse(localStorage.getItem('storedPlans'));
-
-	// 	if (works) {
-	// 		console.log(storedPlans);
-	// 	}
-
-	// 	// If plans were retrieved from localStorage, update the plan array to it
+		// 	// If plans were retrieved from localStorage, update the plan array to it
 	// 	if (storedPlans !== null) {
 	// 		pTextArr = storedPlans;
 	// 	}
