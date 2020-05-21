@@ -5,15 +5,26 @@ Psuedo code here:
        (hour 2, description input 10, button 2)
 3. [x] Set up save on-click button in HTML
 4. [ ] Set up basic JS and define variables - elaborate here
-5. [ ] Display correct date at top of the page (static scroll - nice to have)  
+5. [x] Display correct date at top of the page 
+        (static scroll   - nice to have)  
         (moment.js needed for this)
         Must add year, month, days, and current time
-6.  [ ] Set up each month/day (expect to find prepackaged help in
-        moment.js or someplace) Allow user to select a day of their choice.
-7.  [ ] Set-up local storage to contain input (may need to move down?)
-8.  [ ] Not sure what hover coding is needed but need to explore
-9.  [ ] Provide user input on-click to accept data for each time-block
-10. [ ] Use CSS to activate past, present, future color coding
+6. [x] Set up each month/day (expect to find prepackaged help 
+        in  moment.js or someplace) Allow user to select a day of their choice.
+7. [x] Set-up local storage to contain input (may need to 
+        move down?)
+8. [ ] Not sure what hover coding is needed but 
+        need to explore - nice to have
+9. [x] Provide user input on-click to accept data for 
+        each time-block
+10. [x] Use CSS to activate past, present, future color coding
+11. [ ] Add button to clear data and so user doesn't need to 
+        erase - nice to have
+12. [ ] Add input for personalization - nice to have
+
+Project was hindered by lots of internet downtime throughout the week. 
+
+LINKS:  file:///C:/Users/diane/GitHub/DayPlanner/index.html
 
 
 Instructions for the project below.
