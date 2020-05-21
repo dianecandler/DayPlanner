@@ -39,7 +39,7 @@ $(document).ready(function () {
 	var s = i.toString(currentHour);
 	{
 		$('.saveBtn').click(function () {
-			alert('The paragraph was clicked.');
+			// alert('The paragraph was clicked.'); //alert to check function
 			var h8 = document.getElementById('8').value;
 			localStorage.setItem('text8', h8);
 			var h9 = document.getElementById('9').value;
@@ -87,5 +87,5 @@ $(document).ready(function () {
 	var s17 = localStorage.getItem('text17');
 	document.getElementById('17').value = s17;
 
-	// Create a clear data button
+	// Create a clear data button - nice to have
 });
