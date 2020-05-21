@@ -24,7 +24,8 @@ Psuedo code here:
 
 Project was hindered by lots of internet downtime throughout the week. 
 
-LINKS:  file:///C:/Users/diane/GitHub/DayPlanner/index.html
+LINKS:  https://dianecandler.github.io/DayPlanner/
+https://github.com/dianecandler/DayPlanner
 
 
 Instructions for the project below.
