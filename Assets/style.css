@@ -1,6 +1,6 @@
 body {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1;
 }
 
@@ -45,21 +45,25 @@ textarea {
 	border-top: 1px dashed #000000;
 	padding-top: 1%;
 	font-weight: bold;
+	font-size: 125%;
 }
 
 .past {
 	background-color: #d3d3d3;
 	color: white;
+	font-size: 125%;
 }
 
 .present {
-	background-color: #e40c2b;
+	background-color: lightcoral;
 	color: white;
+	font-size: 125%;
 }
 
 .future {
 	background-color: #438945;
 	color: white;
+	font-size: 125%;
 }
 
 .saveBtn {
@@ -68,6 +72,7 @@ textarea {
 	border-bottom-right-radius: 15px;
 	background-color: #3cbcc3;
 	color: white;
+	font-size: 125%;
 }
 
 .saveBtn i:hover {
