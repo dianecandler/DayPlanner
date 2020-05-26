@@ -1,6 +1,6 @@
-// utilizing JQuery - could have defined buttons here but elected to put in HTML for increased stability
 $(document).ready(function () {
 	console.log('ready!'); //-- inside document function to test JQuery ready
+	// utilizing JQuery - could have defined buttons here but elected to put in HTML for increased stability
 
 	var works = false;
 	var now = moment().format('LLLL'); // Monday, May 18, 2020, 12:20:40 am
